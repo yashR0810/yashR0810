@@ -1,0 +1,201 @@
+batch affecting areas : 
+
+Old files :
+- Batch actions (commented out all method body)
+
+- ClassCommitteAction : Commented out  editClassCommitteeMeeting()
+
+- DataCorrectionAction : listAcad()
+
+- DissertationRegistrationAction : public void createGroupForProjectReg(String admissionsId) {
+
+- ind.campuslabs.academics.action.FacultyCourseAction.createBatch(AcademicYear, String, String, ClassType, Date, Date, String, boolean)
+
+- ind.campuslabs.administration.action.ScholarshipAction.getProgByYear()
+- ind.campuslabs.administration.action.ScholarshipAction.getLevelByProg()
+- ind.campuslabs.administration.action.ScholarshipAction.studentlistShow()
+- ind.campuslabs.administration.action.ScholarshipAction.shortlistCreate()
+
+- ind.campuslabs.academics.action.FacultyCourseAllocationNew.createBatch(AcademicYear, String, String, ClassType, Date, Date, String, boolean)
+
+- ind.campuslabs.assistantportal.action.AcademicAssistantPortalMarksAction.apSaveGroupMarks()
+- ind.campuslabs.assistantportal.action.AcademicAssistantPortalMarksAction.apGetCourseOutline()
+- ind.campuslabs.assistantportal.action.AcademicAssistantPortalMarksAction.apGetEvaluationComponents()
+- ind.campuslabs.assistantportal.action.AcademicAssistantPortalMarksAction.apSaveCourseOutline()
+- ind.campuslabs.assistantportal.action.AcademicAssistantPortalMarksAction.apGetGradeCriteriaCols()
+- ind.campuslabs.assistantportal.action.AcademicAssistantPortalMarksAction.apSaveGradeCriteria()
+- ind.campuslabs.assistantportal.action.AcademicAssistantPortalMarksAction.apSaveSyllabusCourseMarks()
+- ind.campuslabs.assistantportal.action.AcademicAssistantPortalMarksAction.apSaveGroupAllocations()
+- ind.campuslabs.assistantportal.action.AcademicAssistantPortalMarksAction.apSaveSubGroupsForBatch()
+
+- ind.campuslabs.facultyportal.action.FacultyPortalMarksAction.fpGetCourseOutline()
+- ind.campuslabs.facultyportal.action.FacultyPortalMarksAction.fpGetEvaluationComponents()
+- ind.campuslabs.facultyportal.action.FacultyPortalMarksAction.fpSaveCourseOutline()
+- ind.campuslabs.facultyportal.action.FacultyPortalMarksAction.fpGetGradeCriteriaCols()
+- ind.campuslabs.facultyportal.action.FacultyPortalMarksAction.fpSaveGradeCriteria()
+- ind.campuslabs.facultyportal.action.FacultyPortalMarksAction.fpSaveSyllabusCourseMarks()
+- ind.campuslabs.facultyportal.action.FacultyPortalMarksAction.fpSaveGroupAllocations()
+- ind.campuslabs.facultyportal.action.FacultyPortalMarksAction.fpSaveGroupMarks()
+- ind.campuslabs.facultyportal.action.FacultyPortalMarksAction.fpSaveSubGroupsForBatch()
+
+- ind.campuslabs.administration.action.TimeTableItemAction.showTimeTableItemList()
+- ind.campuslabs.administration.action.TimeTableItemAction.go()
+
+- ind.campuslabs.campusintegration.AcademicsActionHelper.findActualCourseFaculty(String, String, String, String, String)
+- ind.campuslabs.campusintegration.AcademicsActionHelper.findActualCourseFacultyByCourseCode(String, String, String, String)
+
+- ind.campuslabs.campuslabsapp.CampusLabsAppAPI.courseBatchListFaculty()
+- ind.campuslabs.campuslabsapp.CampusLabsAppAPI.batchListCourseBased()
+- ind.campuslabs.campuslabsapp.CampusLabsAppAPI.fullCourseDetailsFaculty()
+- ind.campuslabs.campuslabsapp.CampusLabsAppAPI.loginCourseDetailsFaculty()
+- ind.campuslabs.campuslabsapp.CampusLabsAppAPI.allBatchListKL()
+- ind.campuslabs.campuslabsapp.CampusLabsAppAPI.courseDetailsFaculty()
+- ind.campuslabs.campuslabsapp.CampusLabsAppAPI.allFacultyBatchListKL()
+- ind.campuslabs.campuslabsapp.CampusLabsAppAPI.getClassesOfFaculty()
+- ind.campuslabs.campuslabsapp.CampusLabsAppAPI.getAllBatches(Faculty)
+
+- ind.campuslabs.administration.attendance.action.ClassHourlyAttendanceScheduleReportAction.populateObjects()
+- ind.campuslabs.administration.attendance.action.ClassHourlyAttendanceScheduleReportAction.fillBatches()
+
+- ind.campuslabs.administration.action.ClassScheduleAction.populateClassTypesForMandatory()
+- ind.campuslabs.administration.action.ClassScheduleAction.schedulerForm()
+- ind.campuslabs.administration.action.ClassScheduleAction.setScheduleTimeDetails()
+- ind.campuslabs.administration.action.ClassScheduleAction.SendTimeTableEmail.run()
+- ind.campuslabs.administration.action.ClassScheduleAction.showSchedule()
+- ind.campuslabs.administration.action.ClassScheduleAction.checkSchedule()
+- ind.campuslabs.administration.action.ClassScheduleAction.checkScheduleNext()
+- ind.campuslabs.administration.action.ClassScheduleAction.showScheduleNext()
+- ind.campuslabs.administration.action.ClassScheduleAction.populateObjects()
+- ind.campuslabs.administration.action.ClassScheduleAction.fillBatchesOld()
+- ind.campuslabs.administration.action.ClassScheduleAction.fillCourseFaculties()
+- ind.campuslabs.administration.action.ClassScheduleAction.showNextWeekSchedule()
+- ind.campuslabs.administration.action.ClassScheduleAction.findBatchType()
+- ind.campuslabs.administration.action.ClassScheduleAction.findCourseTypes()
+
+- ind.campuslabs.academics.action.ClassWiseRegisteredSubjectsAction.getregisteredsubjects()
+- ind.campuslabs.academics.action.ClassWiseRegisteredSubjectsAction.getregisteredstudents()
+- ind.campuslabs.academics.action.ClassWiseRegisteredSubjectsAction.getregisteredstudentswithsubject()
+- ind.campuslabs.academics.action.ClassWiseRegisteredSubjectsAction.fillCourses()
+
+- ind.campuslabs.academics.action.ComponentExamEvaluationAction.loadInternalMarksUpload()
+- ind.campuslabs.academics.action.ComponentExamEvaluationAction.studentTotInternalAssesmentDetailExcelReportBody(WritableSheet)
+
+- ind.campuslabs.administration.exam.action.CourseExamEvalCompAction.go()
+
+- ind.campuslabs.academics.action.CourseOutlineAction.editItm()
+- ind.campuslabs.academics.action.CourseOutlineAction.filterCourseOutlineITM()
+- ind.campuslabs.academics.action.CourseOutlineAction.addCourseOutline()
+- ind.campuslabs.academics.action.CourseOutlineAction.editItmNew()
+
+- ind.campuslabs.administration.action.ClassAttendanceReportAction.populateStudents(Faculty)
+- ind.campuslabs.administration.action.ClassAttendanceReportAction.loadTimeTableValues()
+- ind.campuslabs.administration.action.ClassAttendanceReportAction.createReportBody(Document)
+- ind.campuslabs.administration.action.ClassAttendanceReportAction.studentAttendanceRegisterXLSReport(WritableSheet)
+
+- ind.campuslabs.core.action.DynamicjReportAction.fillList()
+- ind.campuslabs.core.action.DynamicjReportAction.fillBatch()
+
+- ind.campuslabs.administration.exam.action.ExamCompAdmMarkAction.go()
+
+- ind.campuslabs.campusintegration.ExamUtil.validateCourseOutile(Collection, Batch, CourseClassType)
+- ind.campuslabs.campusintegration.ExamUtil.fpValidateCourseOutile(Collection, Batch, CourseClassType)
+
+- ind.campuslabs.facultyportal.action.FacultyPortalComponentGradingAction.fpGetComponentGradingCourseOutline()
+- ind.campuslabs.facultyportal.action.FacultyPortalComponentGradingAction.fpGetComponentGradingEvaluationComponents()
+- ind.campuslabs.facultyportal.action.FacultyPortalComponentGradingAction.fpSaveComponentGradingCourseOutline()
+
+- ind.campuslabs.keeplearning.KeepLearningAPI.courseBatchListFaculty()
+- ind.campuslabs.keeplearning.KeepLearningAPI.batchListCourseBased()
+- ind.campuslabs.keeplearning.KeepLearningAPI.fullCourseDetailsFaculty()
+- ind.campuslabs.keeplearning.KeepLearningAPI.courseDetailsFaculty()
+- ind.campuslabs.keeplearning.KeepLearningAPI.loginCourseDetailsFaculty()
+- ind.campuslabs.keeplearning.KeepLearningAPI.allBatchListKL()
+- ind.campuslabs.keeplearning.KeepLearningAPI.allFacultyBatchListKL()
+- ind.campuslabs.keeplearning.KeepLearningAPI.getAllBatches(Faculty)
+
+- ind.campuslabs.core.action.DynamicjReportAction.getStudentAttendanceDetails(Long, Long, Long)
+- ind.campuslabs.administration.attendance.action.StudentAttendanceNewAction.getAttendancePeriodsTaken(Long, Long)
+
+- ind.campuslabs.administration.attendance.action.StudentAttendanceNewDeleteAction.getAttendancePeriodsTaken(Long, Long)
+- ind.campuslabs.administration.attendance.action.StudentAttendanceNewDeleteAction.performAttendanceDelete()
+- ind.campuslabs.administration.attendance.action.StudentAttendanceNewDeleteAction.venueCol()
+
+- ind.campuslabs.administration.attendance.action.StudentAttendanceNewEditAction.performNormalAttendance(int)
+- ind.campuslabs.administration.attendance.action.StudentAttendanceNewEditAction.venueCol()
+- ind.campuslabs.administration.attendance.action.StudentAttendanceNewEditAction.getAttendancePeriodsTaken(Long, Long)
+
+- ind.campuslabs.academics.action.StudentEvaluationActionNew
+- ind.campuslabs.academics.action.StudentEvaluationActionNew.studentTotInternalAssesmentDetailExcelReportBody(WritableSheet)
+
+- ind.campuslabs.administration.attendance.action.WorkingDaysReportAction.populateObjects()
+- ind.campuslabs.administration.attendance.action.WorkingDaysReportAction.fillBatches()
+
+- ind.campuslabs.administration.action.WeeklyScheduleReportAction.fillbatch1()
+
+- ind.campuslabs.academics.action.AttendanceEntryMonthlyAction.getCorrectedRecordForAttendance()
+- ind.campuslabs.academics.action.AttendanceEntryMonthlyAction.saveAttendance()
+- ind.campuslabs.academics.action.AttendanceEntryMonthlyAction.fpSaveMonthlyAttendance()
+- ind.campuslabs.academics.action.AttendanceEntryMonthlyAction.fpUploadAttendance()
+- ind.campuslabs.academics.action.AttendanceEntryMonthlyAction
+- ind.campuslabs.academics.action.AttendanceEntryMonthlyAction
+- ind.campuslabs.academics.action.AttendanceEntryMonthlyAction.saveMonthlyAttendanceAfterFrozen()
+
+- ind.campuslabs.administration.action.LabSectionAction.labSectionAllocList()
+- ind.campuslabs.administration.action.LabSectionAction.showRegularLabAdmissions()
+
+- ind.campuslabs.core.action.NoticeAction.findCoursesAttendence(AppUser, Collection, String)
+
+- ind.campuslabs.administration.exam.action.ForcedGradingAction.createCommonBatchForFaculty()
+
+- ind.campuslabs.facultyportal.action.FacultyPortalAction.getCurrentBatches()
+
+- ind.campuslabs.administration.exam.utils.ExaminationRules.findAcademicYearCollectionBatchWise(Collection, AppUser, Long)
+
+- ind.campuslabs.academics.action.BatchWiseSlottingBasedClassSchedulingAction.shuffleSlotBatchesAndVenues(Collection, Collection, SlotMaster, int)
+
+- ind.campuslabs.academics.action.BatchWiseSlottingBasedClassSchedulingAction
+
+- ind.campuslabs.administration.exam.action.FailedStudentsReportAction.getStudentsForBatch()
+
+- ind.campuslabs.administration.action.AttendancePercentageReportAction.go()
+- ind.campuslabs.administration.action.AttendancePercentageReportAction.showAtndnceStudMonthlyReport()
+- ind.campuslabs.administration.action.AttendancePercentageReportAction.getBatchCollection1()
+
+- ind.campuslabs.administration.action.ConsolidatedAttendanceReport.fillBatch()
+
+- ind.campuslabs.administration.action.CourseRegistrationAction.validateStudentStrenthError(ArrayList, Level)
+- ind.campuslabs.administration.action.CourseRegistrationAction.validateStudentCapacity()
+- ind.campuslabs.administration.action.CourseRegistrationAction.addToBatch(Batch, StudentBatchCourse, String)
+
+- ind.campuslabs.administration.action.BatchWiseStudentsReportAction.getReportSubHeaderCaption()
+
+- ind.campuslabs.administration.attendance.action.StudentPortalAttendanceAction.getPrevSemClassAttendance()
+- ind.campuslabs.administration.attendance.action.StudentPortalAttendanceAction.getPrevSemAssemblyAttendance()
+
+- ind.campuslabs.administration.action.StudentLeaveAction.leaveAdd()
+
+- ind.campuslabs.administration.attendance.action.StudentBulkAttendanceAction.venueCol()
+
+- ind.campuslabs.administration.attendance.action.StudentAttendanceOptional.deleteAllStudentsAttenance()
+- ind.campuslabs.administration.attendance.action.StudentAttendanceOptional.getAllBatchCourse()
+
+- ind.campuslabs.administration.attendance.action.StudentAttendanceLackingReportAction.getAdvisor(Long)
+
+
+
+
+
+
+New Modules : 
+
+- course catalog : removed academic year property coming from batch in the response
+
+- com.keeplearning.Batch.BatchService.getBatchDetailsForFaculty(Batch, Faculty) : removed batch details from response
+
+- com.keeplearning.Batch.BatchService.getBatch(String, Course, CourseClassType, Date, Date, AcademicYear, String, BatchEnrolmentEnum) : removed all useless fields from returning instance of batch
+
+- com.keeplearning.Attendance.StudentAttendanceService.getConsolidatedStudentBatchAttendance(Admission, Batch) : passed empty string ("") in the  course field of the reponse json
+
+- com.keeplearning.CourseFaculty.CourseFacultyService.getTeachingCoursesForFacultyInAnAcademicYearAndTerm(AcademicYear, String, Faculty) : return empty array
+
+- disabled entire new student course registration 
